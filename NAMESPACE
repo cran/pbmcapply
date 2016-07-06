@@ -1,0 +1,3 @@
+importFrom("utils", "setTxtProgressBar", "txtProgressBar", "capture.output")
+importFrom("parallel", "mclapply", "mcmapply", "makeCluster", "clusterCall", "stopCluster")
+export(pbmclapply, pbmcmapply)

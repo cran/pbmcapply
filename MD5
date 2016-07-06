@@ -1,0 +1,7 @@
+ab556166f4e86a734848b7f449cde3f4 *DESCRIPTION
+48e66c6d7fb3d84d84ba2187eef1ea48 *LICENSE
+404fb2c334498e61e9a8f00b2c9e2e44 *NAMESPACE
+bb51824e5ac2db08da5120d8d6848247 *R/pbmclapply.R
+a89370c9eff938bf3f38e0dd9cf8a61f *R/pbmcmapply.R
+86cb20dd945676e770128ec9833de97d *man/pbmclapply.Rd
+e9c39ed087de0a52ce0cbd50e8193740 *man/pbmcmapply.Rd
