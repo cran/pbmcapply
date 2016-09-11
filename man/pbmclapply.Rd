@@ -33,12 +33,21 @@ lazySqrt <- function(num) {
   Sys.sleep(runif(1))
   return(sqrt(num))
 }
+# A lazy and chatty sqrt function.
+# An example of passing arguments to pbmclapply.
+lazyChattySqrt <- function(num, name) {
+  # Sleep randomly between 0 to 1 second
+  Sys.sleep(runif(1))
+  return(sprintf("Hello \%s, the sqrt of \%f is \%f.", toString(name), num, sqrt(num)))
+}
 # Get the sqrt of 1-5 in parallel
 if (length(grep("windows", Sys.info()["sysname"], ignore.case = TRUE))) {
   # Windows Machine does not support mc(*)apply
-  result <- pbmclapply(1:5, lazySqrt, mc.cores = 1)
+  # result <- pbmclapply(1:3, lazySqrt, mc.cores = 1)
+  # chattyResult <- pbmclappy(1:3, lazyChattySqrt, "Bob", mc.cores = 1)
 } else {
   # Get the sqrt of 1-5 in parallel
-  result <- pbmclapply(1:5, lazySqrt)
+  # result <- pbmclapply(1:5, lazySqrt)
+  # chattyResult <- pbmclappy(1:3, lazyChattySqrt, "Bob")
 }
 }
