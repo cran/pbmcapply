@@ -1,7 +1,7 @@
-3b4089f71983e7f610342a91cd81bcf6 *DESCRIPTION
+2d9b14d421d782fcf3a93084b8ae7159 *DESCRIPTION
 48e66c6d7fb3d84d84ba2187eef1ea48 *LICENSE
 047c1a7d013acae2b4b5ef2dbaacb274 *NAMESPACE
-f24200a561041fb22cc898967eb94c70 *R/pbmclapply.R
-7b1d0c532b0dc4d46a4f9615446b6d88 *R/pbmcmapply.R
-e595703804e3556b91cffd5472ebd430 *man/pbmclapply.Rd
-b7296d42d1227cd169b4b3d06e208ed6 *man/pbmcmapply.Rd
+c0810025676f30cd158444036bc9500e *R/pbmclapply.R
+6e095bb218b075560fa52aee54af6219 *R/pbmcmapply.R
+973c2ea69e229e70c800031a8a5f1b16 *man/pbmclapply.Rd
+1faeb7fc83b15ca007e5cc95bc4c3d19 *man/pbmcmapply.Rd
