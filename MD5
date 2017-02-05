@@ -1,11 +1,11 @@
-9135275c762d6c9c5ddf80e3636cab9d *DESCRIPTION
+b66b9e03a8d699fd5325e0a052490867 *DESCRIPTION
 48e66c6d7fb3d84d84ba2187eef1ea48 *LICENSE
 b3f1c69ad88ec31ac1d37042e5ca82c7 *NAMESPACE
 920365fff492e740acc1abf22e18f934 *R/pbmclapply.R
 202448939210c12d119705e44772367e *R/pbmcmapply.R
 7dcbfc8a1aa50a1a1c973ac1ba13ae40 *R/progressBar.R
 063d5c5eb056b1cfa548f83673808c18 *R/txtProgressBarETA.R
-8762d17f3f65a7a5b6d9af0a9f0b97c2 *R/utils.R
+5f6a16041e6528838e33c6404da890a1 *R/utils.R
 7158e3f06922059be82d2888c2b3189a *man/pbmclapply.Rd
 8df3a9bff91b71a03732e53588bad6d6 *man/pbmcmapply.Rd
-8a0ded0aa5790f5eac10a95bd7a6ae6b *man/progressBar.Rd
+79be155e46341a4adc4a554017092e08 *man/progressBar.Rd
