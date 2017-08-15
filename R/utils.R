@@ -7,8 +7,7 @@
 }
 
 .isOSWindows <- function() {
-  # return(.Platform$OS.type == "windows")
-  return(T)
+  return(.Platform$OS.type == "windows")
 }
 
 .establishFifo <- function(description) {
